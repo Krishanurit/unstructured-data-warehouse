@@ -1,0 +1,39 @@
+# Global Configuration File
+
+project:
+  name: "Unstructured Data Warehouse"
+  version: "1.0"
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  extracted_data: "data/extracted/"
+  sample_data: "data/sample/"
+  logs: "logs/"
+
+processing:
+  enable_ocr: true
+  enable_nlp: true
+  enable_preprocessing: true
+
+ocr:
+  tesseract_path: "C:/Program Files/Tesseract-OCR/tesseract.exe"
+  language: "eng"
+
+nlp:
+  language: "en"
+  remove_stopwords: true
+  enable_sentiment: true
+  enable_keywords: true
+
+database:
+  type: "sqlite"   # or postgres / mysql
+  name: "data_warehouse.db"
+  host: "localhost"
+  port: 5432
+  user: "admin"
+  password: "password"
+
+logging:
+  level: "INFO"
+  file: "logs/app.log"
