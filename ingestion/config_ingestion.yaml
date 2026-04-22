@@ -1,0 +1,24 @@
+# Ingestion Configuration File
+
+paths:
+  raw_data: "data/raw/"
+  processed_data: "data/processed/"
+  logs: "logs/"
+
+file_types:
+  supported_extensions:
+    - ".pdf"
+    - ".txt"
+    - ".log"
+    - ".png"
+    - ".jpg"
+    - ".jpeg"
+
+ingestion:
+  add_timestamp: true
+  move_files: true
+  overwrite: false
+
+logging:
+  level: "INFO"
+  log_file: "logs/ingestion.log"
