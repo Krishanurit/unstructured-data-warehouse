@@ -1,1 +1,0 @@
-Customer payment received successfully. Invoice processed.
