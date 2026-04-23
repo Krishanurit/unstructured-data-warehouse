@@ -1,0 +1,5 @@
+Invoice ID: INV-001
+Customer Name: Rahul Sharma
+Payment of 7500 INR received successfully.
+Transaction completed on 12 April 2026.
+Thank you for your business.

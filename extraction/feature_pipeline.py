@@ -1,43 +1,38 @@
-from extraction.ocr_extractor import extract_text
 from extraction.nlp_processor import process_text
 from extraction.entity_extractor import extract_entities, group_entities
+from extraction.ocr_extractor import extract_text
+from ingestion.file_handler import process_file
+import os
 
 
 def run_feature_pipeline(file_path):
-    """Full extraction pipeline"""
+    """Full extraction pipeline (FIXED)"""
 
-    print(f"📂 Processing file: {file_path}")
+    print(f"Processing file: {file_path}")
 
-    # Step 1: Extract text (OCR / PDF)
-    text = extract_text(file_path)
+    # 🔥 IMPORTANT: use correct method
+    _, ext = os.path.splitext(file_path)
+
+    if ext in [".txt", ".log"]:
+        text = process_file(file_path)   # ✅ use file_handler
+    else:
+        text = extract_text(file_path)   # OCR for image/pdf
 
     if not text:
-        print("⚠️ No text extracted")
+        print("No text extracted")
         return {}
 
-    # Step 2: NLP processing
+    # NLP
     nlp_output = process_text(text)
 
-    # Step 3: Named Entity Recognition
+    # NER
     entities = extract_entities(text)
     grouped_entities = group_entities(entities)
 
-    # Combine all outputs
-    final_output = {
-        "file_name": file_path,
+    return {
         "text": text,
         "keywords": nlp_output.get("keywords", []),
         "sentiment": nlp_output.get("sentiment", "neutral"),
         "category": nlp_output.get("category", "general"),
         "entities": grouped_entities
     }
-
-    return final_output
-
-
-if __name__ == "__main__":
-    sample = "data/sample/test.png"
-
-    result = run_feature_pipeline(sample)
-
-    print("Final Output:\n", result)
