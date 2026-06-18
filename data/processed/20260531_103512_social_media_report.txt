@@ -1,0 +1,24 @@
+Social Media Monitoring Report
+
+Campaign Name: Summer Sale 2026
+
+Platform Statistics:
+Facebook Reach: 150,000
+Instagram Reach: 220,000
+Twitter Reach: 75,000
+
+User Comments:
+"The offers are amazing!"
+"Delivery was delayed."
+"Customer support solved my issue quickly."
+"Very satisfied with the service."
+
+Influencer Mentions:
+Riya Sharma posted a review from Mumbai.
+TechGuru Raj shared a video review from Bengaluru.
+
+System Events:
+[INFO] Campaign started.
+[INFO] Engagement rate increased by 15%.
+[WARNING] Negative comments increased on Day 3.
+[INFO] Campaign completed successfully.

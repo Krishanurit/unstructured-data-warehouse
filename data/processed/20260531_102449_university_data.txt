@@ -1,0 +1,21 @@
+University: ABC Institute of Technology
+
+Student Name: Ankit Das
+Roll Number: CS2026012
+
+Semester Examination Results:
+
+Mathematics: 85
+Database Systems: 91
+Machine Learning: 88
+Computer Networks: 79
+
+Faculty Notes:
+Student shows excellent analytical skills.
+Needs improvement in presentation and communication.
+
+Placement Cell Report:
+Several companies including TCS, Infosys, and Wipro visited the campus.
+
+Meeting Notes:
+A seminar on Artificial Intelligence will be conducted next month in Kolkata.
