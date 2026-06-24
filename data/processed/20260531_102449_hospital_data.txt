@@ -1,0 +1,21 @@
+Patient Name: Rohan Sen
+Age: 45
+Address: Kolkata, West Bengal
+
+The patient visited the hospital on 25 May 2026 complaining of chest pain and dizziness.
+Doctor recommended ECG and blood tests.
+
+Prescription:
+- Aspirin 75mg
+- Atorvastatin 10mg
+
+Follow-up appointment scheduled for next week.
+
+Hospital Log:
+[INFO] Patient registered successfully.
+[INFO] Diagnostic reports uploaded.
+[WARNING] Blood pressure above normal range.
+
+Patient Feedback:
+The doctors were very supportive and professional.
+Waiting time was slightly longer than expected.

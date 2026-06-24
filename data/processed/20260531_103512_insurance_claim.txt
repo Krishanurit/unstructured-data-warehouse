@@ -1,0 +1,25 @@
+Insurance Claim Report
+
+Claim ID: CLM-2026-987
+Policy Holder: Suman Roy
+Policy Number: INS456789
+
+Incident Date: 12 May 2026
+
+The policy holder reported a minor vehicle accident near Salt Lake, Kolkata.
+The vehicle suffered damage to the front bumper and left headlight.
+
+Assessment Notes:
+The surveyor estimated repair costs at 45,000 INR.
+
+Customer Communication:
+The customer expressed satisfaction with the quick response from the support team.
+
+System Logs:
+[INFO] Claim registered successfully.
+[INFO] Surveyor assigned.
+[WARNING] Missing repair invoice.
+[INFO] Claim approved after verification.
+
+Branch Office:
+Kolkata, West Bengal
