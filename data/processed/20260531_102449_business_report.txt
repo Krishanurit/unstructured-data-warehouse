@@ -1,0 +1,24 @@
+Company: XYZ Retail Pvt Ltd
+
+Monthly Sales Report - April 2026
+
+Total Orders: 2500
+Total Revenue: 1,250,000 INR
+
+Top Products:
+1. Smartphones
+2. Laptops
+3. Smart Watches
+
+Customer Reviews:
+The products are genuine and delivery is fast.
+Customer support needs improvement during peak hours.
+
+System Logs:
+[INFO] Sales database backup completed.
+[INFO] Inventory updated successfully.
+[ERROR] Payment gateway timeout detected.
+
+Management Meeting:
+CEO Rajesh Kumar discussed expansion plans in Delhi and Mumbai.
+New warehouse construction will begin next quarter.

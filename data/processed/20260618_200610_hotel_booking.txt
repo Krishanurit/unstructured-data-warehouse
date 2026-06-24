@@ -1,0 +1,21 @@
+Hotel: Grand Palace Hotel
+
+Guest Name: Rahul Roy
+Check-in Date: 10 June 2026
+Check-out Date: 15 June 2026
+
+Room Type: Deluxe Suite
+Total Amount: 18,500 INR
+
+Customer Review:
+The room was spacious and clean.
+Staff behavior was excellent.
+Breakfast quality was very good.
+
+System Logs:
+[INFO] Booking confirmed.
+[INFO] Payment received.
+[WARNING] Late check-in request received.
+
+Location:
+Kolkata, West Bengal, India
